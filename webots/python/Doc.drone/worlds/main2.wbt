@@ -1,0 +1,305 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.05681776503207523 0.9951185852971565 0.08068917382738468 4.639568665592658
+  position -34.38293644289839 42.04697611803523 5.453849166999731
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+CyberboticsTower {
+  translation -37.91 0 32.01
+}
+Floor {
+  size 100 100
+  appearance Parquetry {
+    type "dark strip"
+  }
+}
+Mavic2Pro {
+  hidden position_0_0 5.576960823418728e-09
+  hidden position_6_0 1.2498784016987152e-08
+  hidden position_7_0 4.835292897966135e-09
+  translation -32.28000712359203 41.71531658206516 5.909999506013822
+  rotation 0.9999999233664367 0.0002768064188192314 0.0002768489247868799 1.57076798966557
+  controller "my_controller"
+}
+PottedTree {
+  translation 41.19 0 6.96
+}
+UrbanFence {
+  translation -12.54 0 -7.32
+  rotation 0 1 0 1.5708
+}
+UrbanFence {
+  translation -12.54 0 -5.58
+  rotation 0 1 0 1.5708
+  name "urban fence(1)"
+}
+UrbanFence {
+  translation -12.54 0 -3.78
+  rotation 0 1 0 1.5708
+  name "urban fence(2)"
+}
+UrbanFence {
+  translation -12.54 0 -2.32
+  rotation 0 1 0 1.5708
+  name "urban fence(3)"
+}
+FireHydrant {
+  translation -8.83 0 25.44
+  name "fire hydrant(3)"
+}
+FireHydrant {
+  translation -8.83 0 43.26
+  name "fire hydrant(1)"
+}
+FireHydrant {
+  translation -8.83 0 8.98
+  name "fire hydrant(2)"
+}
+FireHydrant {
+  translation -8.83 0 -10.38
+  name "fire hydrant(4)"
+}
+FireHydrant {
+  translation -8.83 0 -27.08
+  name "fire hydrant(5)"
+}
+DogHouse {
+  translation 19.86 0 7.03
+  rotation 0 1 0 4.692820414042842e-06
+}
+Cypress {
+  translation 18.26 0 0
+}
+Cypress {
+  translation 16.79 0 0
+  name "cypress tree(1)"
+}
+Cypress {
+  translation 15.19 0 0
+  name "cypress tree(2)"
+}
+Cypress {
+  translation 11.76 0 0
+  name "cypress tree(3)"
+}
+Cypress {
+  translation 10.14 0 0
+  name "cypress tree(4)"
+}
+Cypress {
+  translation 3.87 0 0
+  name "cypress tree(5)"
+}
+Cypress {
+  translation 18.26 0 0
+  name "cypress tree(6)"
+}
+HouseWithGarage {
+  translation 12.07 0 15.89
+}
+HouseWithGarage {
+  translation 36.44 0 15.89
+  name "house with garage(1)"
+}
+GasStation {
+  translation 16.88 0 -31.76
+  rotation 0 1 0 -3.1415853071795863
+}
+TheThreeTowers {
+  translation -33.31 0 -13.85
+  rotation 0 1 0 1.5708
+}
+Floor {
+  translation 25 0.1 0
+  name "floor(1)"
+  size 50 100
+  appearance Parquetry {
+    type "light strip"
+    colorOverride 0.443137 0.886275 0
+  }
+}
+BusStop {
+  translation -9.87 0 3.12999
+  rotation 0 1 0 1.5708
+}
+Cypress {
+  translation 1.59 0 0
+  name "cypress tree(7)"
+}
+Cypress {
+  translation 20.26 0 0
+  name "cypress tree(8)"
+}
+Cypress {
+  translation 22.14 0 0
+  name "cypress tree(9)"
+}
+Cypress {
+  translation 24.2 0 0
+  name "cypress tree(10)"
+}
+Cypress {
+  translation 26.1 0 0
+  name "cypress tree(11)"
+}
+Cypress {
+  translation 33.81 0 0
+  name "cypress tree(12)"
+}
+Cypress {
+  translation 35.62 0 0
+  name "cypress tree(13)"
+}
+Cypress {
+  translation 40.11 0 0
+  name "cypress tree(14)"
+}
+Cypress {
+  translation 41.89 0 0
+  name "cypress tree(15)"
+}
+Cypress {
+  translation 43.78 0 0
+  name "cypress tree(16)"
+}
+Cypress {
+  translation 45.51 0 0
+  name "cypress tree(17)"
+}
+Cypress {
+  translation 47.03 0 0
+  name "cypress tree(18)"
+}
+Cypress {
+  translation 48.08 0 0
+  name "cypress tree(19)"
+}
+Cypress {
+  translation 48.09 0 0
+  name "cypress tree(20)"
+}
+Cypress {
+  translation 48.09 0 -9.88
+  name "cypress tree(21)"
+}
+Cypress {
+  translation 46.68 0 -9.88
+  name "cypress tree(23)"
+}
+Cypress {
+  translation 42.86 0 -9.88
+  name "cypress tree(24)"
+}
+Cypress {
+  translation 40.72 0 -9.88
+  name "cypress tree(25)"
+}
+Cypress {
+  translation 38.22 0 -9.88
+  name "cypress tree(26)"
+}
+Cypress {
+  translation 35.88 0 -9.88
+  name "cypress tree(27)"
+}
+Cypress {
+  translation 33.44 0 -9.88
+  name "cypress tree(28)"
+}
+Cypress {
+  translation 30.92 0 -9.88
+  name "cypress tree(29)"
+}
+Cypress {
+  translation 27.65 0 -9.88
+  name "cypress tree(30)"
+}
+Cypress {
+  translation 24.15 0 -9.88
+  name "cypress tree(31)"
+}
+Cypress {
+  translation 21.69 0 -9.88
+  name "cypress tree(32)"
+}
+Cypress {
+  translation 48.09 0 0
+  name "cypress tree(22)"
+}
+Windmill {
+  translation 43.66 0 29.1
+  rotation 0 1 0 -1.5707953071795862
+}
+Windmill {
+  translation 43.66 0 40.87
+  rotation 0 1 0 -1.5707953071795862
+  name "windmill(1)"
+}
+Windmill {
+  translation 26.57 0 41.66
+  rotation 0 1 0 -1.5707953071795862
+  name "windmill(2)"
+}
+Windmill {
+  translation 28.21 0 29.1
+  rotation 0 1 0 -1.5707953071795862
+  name "windmill(3)"
+}
+Windmill {
+  translation 7.95 0 42.93
+  rotation 0 1 0 -1.5707953071795862
+  name "windmill(4)"
+}
+Windmill {
+  translation 8.82 0 29.1
+  rotation 0 1 0 -1.5707953071795862
+  name "windmill(5)"
+}
+FastFoodRestaurant {
+  translation -18.04 0 36.27
+}
+OldResidentialBuilding {
+  translation 43.53 0 -33.3
+  rotation 0 1 0 3.14159
+}
+StraightRoadSegment {
+  translation -4 0.1 3
+  length 47
+}
+StraightRoadSegment {
+  translation -4 0.1 -50
+  name "road(4)"
+  length 37
+}
+Pedestrian {
+  translation 39.44 1.27 9.94
+  rotation 0 1 0 3.14159
+}
+StraightRoadSegment {
+  translation 0 0.2 -5
+  rotation 0 1 0 1.5707996938995747
+  name "road(1)"
+  length 50
+}
+RoadIntersection {
+  translation -4 0.1 -5
+  rotation 0 1 0 0.7853996938995746
+}
+StoneFountain {
+  translation -23.55 0 -11.3
+}
+PublicBin {
+  translation -10.23 0 8.8
+}
+PhoneBooth {
+  translation -10.96 0 -10.93
+}
+AdvertisingBoard {
+  translation 16.1 1.58 -10.32
+}

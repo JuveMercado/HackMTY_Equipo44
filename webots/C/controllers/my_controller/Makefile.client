@@ -1,0 +1,18 @@
+ifeq ($(OS),Windows_NT)
+TARGET = my_controller.exe
+LIBS=-lws2_32
+CC=gcc
+else
+TARGET = client
+LIBS=
+endif
+
+.PHONY = build release debug profile
+
+build release debug profile: $(TARGET)
+
+$(TARGET): my_controller.c
+	$(CC) $(CFLAGS) $< -o $@ $(LIBS)
+
+clean:
+	rm -f my_controller.o my_controller my_controller.exe
