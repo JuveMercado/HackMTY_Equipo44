@@ -1,4 +1,4 @@
-# HackMTY_Dronector
+# HackMTY_Dronctor
 Dronector designed by El club que toma te No.44
 
 ## **Propuesta**
