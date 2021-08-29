@@ -11,13 +11,13 @@ Dron autónomo y de apoyo para médicos en servicio de consultas médicas a dist
     -Transporte de kit con equipo necesario para pruebas covid
 
 ## **Beneficios**
--Consultas a distancia de mejor calidad
--Servicio Planificado
--Amplio rango de apoyo
--Personal Capacitado
+    -Consultas a distancia de mejor calidad
+    -Servicio Planificado
+    -Amplio rango de apoyo
+    -Personal Capacitado
 
 
 ## **Videos y simulaciones.**
     -Simulación 1 | DJi Simulator: https://youtu.be/FUlyIWOZeyA
     -Simulación 2 | Dron Webot Simulator: https://youtu.be/47sDDvY62BY
-   -Funcionamiento de la página web: https://youtu.be/gCjISz57v7w
+    -Funcionamiento de la página web: https://youtu.be/gCjISz57v7w
