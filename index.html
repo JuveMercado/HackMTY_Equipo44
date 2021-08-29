@@ -89,25 +89,25 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group row">
-                            <label for="name" class="col-12  col-sm-4 col-form-label">Apellidos</label>
+                            <label for="apellidos" class="col-12  col-sm-4 col-form-label">Apellidos</label>
                             <div class="col-12 col-sm-7">
                                 <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Apellidos">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="name" class="col-12  col-sm-4 col-form-label">Nombres</label>
+                            <label for="nombre" class="col-12  col-sm-4 col-form-label">Nombres</label>
                             <div class="col-12 col-sm-7">
                                 <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Nombre/s">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="name" class="col-12  col-sm-4 col-form-label">Edad</label>
+                            <label for="edad" class="col-12  col-sm-4 col-form-label">Edad</label>
                             <div class="col-12 col-sm-7">
                                 <input type="text" class="form-control" name="age" id="age" placeholder="Edad">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="noAdults" class="col-4 col-form-label">Fecha de Nacimiento</label>
+                            <label for="fechanac" class="col-4 col-form-label">Fecha de Nacimiento</label>
                             <div class="col-2 ">
                                 <input type="date" id="start" name="trip-start"
                                     value="2021-08-29"
@@ -115,7 +115,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="name" class="col-12  col-sm-4 col-form-label">Sexo</label>
+                            <label for="sexo" class="col-12  col-sm-4 col-form-label">Sexo</label>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Masculino">
                                 <label class="form-check-label" for="inlineRadio1">Masculino</label>
@@ -137,7 +137,7 @@
                         </div>
                         
                         <div class="form-group row">
-                            <label for="typeRoom" class="col-12  col-sm-4 col-form-label">Hábitos</label>
+                            <label for="habitos" class="col-12  col-sm-4 col-form-label">Hábitos</label>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                 <label class="form-check-label" for="inlineCheckbox1">Alcohol</label>
@@ -156,72 +156,58 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="name" class="col-12  col-sm-4 col-form-label">Alergias</label>
+                            <label for="alergias" class="col-12  col-sm-4 col-form-label">Alergias</label>
                             <div class="col-12 col-sm-7">
                                 <input type="text" class="form-control" name="alergias" id="alergias" placeholder="Alergias">
                             </div>
                         </div>
-
-                                <label for="noKids" class="col-4 col-form-label">Number of Kids</label>
-                                <div class="col-2 ">
-                                    <select class="form-control" id="noAdults">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                      </select>
-                                </div>
+                        <h5>Domicilio</h5>
+                        <div class="form-group row">
+                            <label for="calle" class="col-12  col-sm-4 col-form-label">Calle</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="text" class="form-control" name="calle" id="calle" placeholder="Calle">
                             </div>
-
-
-                            <div class="form-group row">
-                                <label for="dateReservation" class="col-4 col-form-label">Reservation day</label>
-                                <div class="col-2 ">
-                                    <select class="form-control" id="dateReservation">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                        <option value="10">10</option>|
-                                      </select>
-                                </div>
-                                <label for="days" class="col-4 col-form-label">Number of Days</label>
-                                <div class="col-2 ">
-                                    <select class="form-control" id="days">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                      </select>
-                                </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="numero" class="col-12  col-sm-4 col-form-label">Número</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="text" class="form-control" name="numero" id="numero" placeholder="Número">
                             </div>
-
-                            <div class="form-group row">
-                                <label for="internet" class="col-4 col-form-label">Type of Internet</label>
-                                <div class="col-2 ">
-                                    <select class="form-control" id="internet">
-                                        <option value="Basic">Basic</option>
-                                        <option value="Pro">Pro</option>
-                                      </select>
-                                </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="colonia" class="col-12  col-sm-4 col-form-label">Colonia</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="text" class="form-control" name="colonia" id="colonia" placeholder="Colonia">
                             </div>
-
+                        </div>
+                        <div class="form-group row">
+                            <label for="codigo" class="col-12  col-sm-4 col-form-label">C.P.</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="text" class="form-control" name="codigo" id="codigo" placeholder="C.P.">
+                            </div>
+                        </div>
+                        <h5>Cita</h5>
+                        <div class="form-group row">
+                            <label for="FechaCita" class="col-4 col-form-label">Fecha de la cita</label>
+                            <div class="col-2 ">
+                                <input type="date" id="start" name="trip-start"
+                                    value="2021-08-29"
+                                    min="2021-08-29" max="2030-12-31">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="tel" class="col-12  col-sm-4 col-form-label">Teléfono o Celular</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="text" class="form-control" name="tel" id="tel" placeholder="Teléfono/celular">
+                            </div>
+                        </div>
                             <div class="form-group row">
                                 <div class="offset-4 ">
                                     <button type="button"  class="btn  btn-secondary" data-dismiss="modal">
                                     Cancel
                                     </button>
                                     <button type="submit" class="btn btn-primary">
-                                    Reserve
+                                    Reservar
                                     </button>
                                 </div>
                             </div>
