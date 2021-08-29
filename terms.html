@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/21fbb6e183.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Zoom Hotel Inc.</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto " href="index.html"><img src="img/logo.png" alt="Zoom Hotel Inc." height="30" width="41"> Zoom Hotel Inc. </a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item "><a class="nav-link" href="index.html"> <span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> <span class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                </ul>
+                <span class="navbar-text">
+                    <a>
+                        <span class="fa fa-sign-in btn " style="color:white" id="loginButton" > Login</span> 
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="jumbotron">
+        <div class="container align-self-center">
+            <div class="row row-header">
+                <div class="col-12 ">
+                    <h1 >Terms and conditions</h1>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <br>
+            <div class="entry-content">
+                <p style="text-align: justify;">Cualquier cambio en su reservación estará sujeto a disponibilidad y re-cotización de tarifas.</p>
+                <p style="text-align: justify;">Le recordamos que al reservar el <strong>Plan Todo Incluido</strong> cualquier cambio en el número de huéspedes debe ser notificado al área de Reservaciones <em><strong>ANTES</strong> de su llegada,</em> ya que de lo contrario el área de Recepción cobrará las personas extras de acuerdo al tabulador que en ese momento estén manejando.</p>
+                <p style="text-align: justify;">Si usted necesita cambiar la fecha de su reservación o tiene alguna duda al respecto, favor de contactarnos al +852 1234 5678 o envíenos un correo electrónico a la cuenta <strong>ZoomInc@hotel.net</strong></p>
+                <p style="text-align: justify;">Para cualquier aclaración que necesite, favor de tener a la mano su clave de reservación y fecha de llegada.</p>
+                <p style="text-align: justify;"><strong>Temporada Baja</strong></p>
+                <p>La tarjeta que ingrese quedará sólo como garantía, en ella NO se hará ningún cargo ya que su pago lo realizaría a su llegada en Recepción, ya sea con tarjeta o en efectivo. Si usted está interesad@ en que se le haga el cargo en su tarjeta, favor de especificarlo en el espacio de “comentarios”.</p>
+                <p>Cualquier cancelación o cambio debe ser solicitada por lo menos <u>3 días antes de su fecha de llegada</u> para evitar un cargo por penalización (1 noche).</p>
+                <p style="text-align: justify;"><strong>Temporada Alta</strong></p>
+                <p>Como garantía si realiza su reservación en nuestra página web en la tarjeta que ingrese se hará el cargo de 1 noche por cada habitación reservada.</p>
+                <p>Cualquier cancelación o cambio debe ser solicitado por lo menos <u>7 días antes de su fecha de llegada</u> para evitar un cargo por penalización (2 noches).</p>
+                <p style="text-align: justify;"><strong>2020</strong></p>
+                <p>Puente: Septiembre 12-15<br>
+                Puente: Octubre 29 – Noviembre 1<br>
+                Puente: Noviembre 13-15<br>
+                Maratón: Diciembre 3-5<br>
+                Navidad: Diciembre 20-27<br>
+                Fin de Año: Diciembre 28/2020 – Enero 2/2021</p>
+                <p style="text-align: justify;"><strong>2021</strong></p>
+                <p>Puente: Enero 29-31<br>
+                Serie del Caribe: Febrero 1-6<br>
+                Carnaval: Febrero 11-16<br>
+                Puente: Marzo 12-14<br>
+                Semana Santa: Marzo 27 – Abril 3<br>
+                Pascua: Abril 4-10<br>
+                Puente: Abril 29 – Mayo 1<br>
+                Puente: Mayo 14-16<br>
+                Verano: Julio 8 – Agosto 15<br>
+                Puente: Noviembre 12-14<br>
+                Maratón: Diciembre 2-4<br>
+                Navidad: Diciembre 22-27<br>
+                Fin de Año: Diciembre 28/2021 – Enero 2/2022</p>
+                <p style="text-align: justify;"><strong>Reembolsos</strong></p>
+                <p style="text-align: justify;">Cuando se trate de un reembolso por un pago realizado con <strong>tarjeta de crédito</strong> el tiempo de espera máximo para que quede reflejado en su cuenta será aproximadamente de 3 meses.</p>
+                <p style="text-align: justify;">Si el pago realizado se efectuó mediante <strong>depósito o transferencia bancaria</strong>, el tiempo de espera estimado será de 2 semanas.</p>
+                <p style="text-align: justify;">En ambos casos el reembolso se realizará mediante transferencia electrónica (no efectivo, no crédito a tarjeta) directamente a la cuenta del cliente; para lo cual se le requerirá:</p>
+                <ul style="text-align: justify;">
+                <li>Banco, Sucursal, Número de cuenta y Clave de transferencia.</li>
+                <li>Nombre, Teléfono, Dirección y RFC del Titular.</li>
+                </ul>
+                <p style="text-align: justify;">El plazo de espera inicia a partir de que el cliente envíe toda la documentación solicitada al Hotel. Para mayor información, favor de contactarnos mencionando su número de reservación.</p>
+                <p style="text-align: justify;"><strong>Políticas de Reservación</strong></p>
+                <p style="text-align: justify;">En nuestro <strong>Plan Europeo</strong> <em>(sólo hospedaje)</em> los niños <em>menores de 12 años</em> son <strong>Gratis.</strong> En nuestro <strong>Plan Todo Incluido</strong> los infantes de <em>0-6 años</em> son <strong>Gratis </strong><em>(un menor Gratis por cada adulto pagado, máximo 2 menores gratis por habitación).</em></p>
+                <p style="text-align: justify;">Los precios publicados en nuestra página son en base ocupación doble y variarán dependiendo de la temporada y la categoría de habitación que elija.</p>
+                <p style="text-align: justify;">* Nuestros precios, disponibilidad y promociones están sujetas a cambios sin previo aviso, hasta la confirmación de su reservación.</p>
+                <p style="text-align: justify;"><strong>Recepción</strong></p>
+                <p style="text-align: justify;">Para su comodidad la Recepción del Hotel está abierta las 24 horas del día donde todos nuestros recepcionistas hablan inglés y español y estarán encantados de serle de servicio y ayudarle con cualquier consulta que tenga.</p>
+                <p style="text-align: justify;">Le recordamos también que ofrecemos servicio de guarda equipaje y regaderas sin ningún cargo extra.</p>
+                <p style="text-align: justify;">* Horario de <strong>Check-in (entrada):</strong> 15:00 horas | <strong>Check-out (salida):</strong> 11:00 horas. <a href="//www.hotelplayamazatlan.com/mx/horario-de-salida-entrada-check-in-check-out/">Más información…</a></p>
+                <p style="text-align: justify;">Recuerde que para hacer check-in deberá presentar un documento oficial que permita a los recepcionistas identificarlo como la persona que realizó la reservación. Por tanto, recuerde tener a la mano un <strong>documento de identidad</strong> como <strong>credencial de elector, permiso de conducir,</strong> <strong>pasaporte, </strong>entre otros.</p>
+                <p style="text-align: justify;">La importancia de mostrar alguna forma de identificación a su llegada está vinculada principalmente a cuestiones de seguridad de todos los huéspedes.</p>
+                <p style="text-align: justify;"><strong>Llegada Tardía</strong></p>
+                <p style="text-align: justify;">Su habitación estará garantizada. Sin embargo, si usted sabe que su hora de llegada será después de las 18:00 horas, por favor póngase en contacto con nosotros para realizar las adecuaciones pertinentes.</p>
+                <p style="text-align: justify;"><strong>Internet</strong></p>
+                <p style="text-align: justify;">Hotel Zoom Inc ofrece conexión WiFi basica de hasta <strong>3 Mbps</strong> con acceso a <em>2 dispositivos</em> en cualquier zona del hotel, tanto en las zonas comunes como en las habitaciones y por un cargo extra puede ampliar su cobertura  a version Pro con hasta <strong>30 Mbps</strong> con acceso a <em>8 dispositivos.</em></p>
+                <p style="text-align: justify;">Todos nuestros huéspedes que realicen su reservación a través de algún medio digital oficial del Hotel <em>(página web, Whatsapp, CHAT o redes sociales)</em> tendrán derecho a <strong>15 Mbps</strong> con acceso a <em>4 dispositivos.</em></p>
+                <p style="text-align: justify;">Este servicio debe solicitarse en la Recepción del Hotel.</p>
+                <p style="text-align: justify;"><strong>Meses sin Intereses</strong></p>
+                <p style="text-align: justify;">Haciendo su pago con tarjetas BANCOMER, BANAMEX y AMERICAN EXPRESS elija opción de 6 a 12 meses sin intereses <em>(12 meses aplica en un monto total a pagar igual o mayor a $5,000 MXN).</em> En la compra mínima de $1,000 elija de 3 a 6 meses sin intereses haciendo su pago con: AFIRME, BANBAJIO, BANCA MIFEL, BANCO FAMSA, BANORTE, IXE, BANREGIO, BANJERCITO, HSBC, INBURSA, INVEX BANCO,&nbsp;Premium Card LIVERPOOL, SANTANDER Y SCOTIABANK <em>(12 meses aplica en un monto total a pagar igual o mayor a $5,000 MXN).</em></p>
+                </div>
+            <br>
+        </div>
+    </div>
+
+    
+
+    <footer class=" footer" style="color: floralwhite;">
+        <div class="container" >
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" style="color:white">Home</a></li>
+                        <li><a href="#" style="color:white"> About</a></li>
+                        <li><a href="#" style="color:white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-4 offset-2" >
+                    <h5>Our Address</h5>
+                    <address style="color:white">
+		              121, Beauty Street<br>
+		              Beauty Street, Beach<br>
+		              Monterrey<br>
+		              <span class="fa fa-phone fa-lg" style="color:white"></span>: +852 1234 5678<br>
+		              <span class="fa fa-fax fa-lg" style="color:white"></span>: +852 8765 4321<br>
+		              <span class="fa fa-envelope fa-lg" style="color:white"></span>: <a href="mailto:ZoomInc@hotel.net" style="color:white">ZoomInc@hotel.net</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+" ><span class="fa fa-google-plus fa-lg " style="color:white"></span></a>
+                        <a class="btn btn-social-icon btn-facebook"href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook fa-lg "style="color:white" ></span></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><span class="fa fa-linkedin fa-lg "style="color:white"></span></a>
+                        <a class="btn btn-social-icon btn-twitter"href="http://twitter.com/"><span class="fa fa-twitter fa-lg "style="color:white"></span></a>
+                        <a class="btn btn-social-icon btn-youtube"href="http://youtube.com/"><span class="fa fa-youtube fa-lg "style="color:white"></span></a>
+                        <a class="btn btn-social-icon "href="mailto:"><span class="fa fa-envelope-o fa-lg" style="color:white"></span></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto ">
+                    <p>© Copyright 2020 HackMTY designed by El club que toma te</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+</body>
+
+</html>

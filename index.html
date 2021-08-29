@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/21fbb6e183.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Donetor</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto " href="#"><img src="img/logo.png" alt="Zoom Hotel Inc." height="30" width="41"> Dronetor </a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"> <span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> <span class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                </ul>
+                <span class="navbar-text">
+                    <a>
+                        <span class="fa fa-sign-in btn " style="color:white" id="loginButton" > Login</span> 
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>  
+                    <div class="col-12">
+                        <a href="terms.html">Check the Terms & Conditions</a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="reserveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    </h4><h4 class="modal-title">Reserva tu cita</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+
+                        <div class="form-group row">
+                            <label for="name" class="col-12  col-sm-4 col-form-label">Apellidos</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Apellidos">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="name" class="col-12  col-sm-4 col-form-label">Nombres</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Nombre/s">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="name" class="col-12  col-sm-4 col-form-label">Edad</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="text" class="form-control" name="age" id="age" placeholder="Edad">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="name" class="col-12  col-sm-4 col-form-label">Sexo</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Masculino">
+                                <label class="form-check-label" for="inlineRadio1">Masculino</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Femenino">
+                                <label class="form-check-label" for="inlineRadio2">Femenino</label>
+                              </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="name" class="col-12  col-sm-4 col-form-label">Sexo</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="text" class="form-control" name="sex" id="sex" placeholder="Sexo">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="typeRoom" class="col-12  col-sm-4 col-form-label">Select the room</label>
+                            <div class="col-4">
+                                <select class="form-control" id="typeRoom">
+                                    <option>Executive</option>
+                                    <option>Family</option>
+                                    <option>Royal</option>
+                                  </select>
+                            </div>
+                        </div>
+
+                            <div class="form-group row">
+                                <label for="noAdults" class="col-4 col-form-label">Number of Adults</label>
+                                <div class="col-2 ">
+                                    <select class="form-control" id="noAdults">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                      </select>
+                                </div>
+                                <label for="noKids" class="col-4 col-form-label">Number of Kids</label>
+                                <div class="col-2 ">
+                                    <select class="form-control" id="noAdults">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                      </select>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group row">
+                                <label for="dateReservation" class="col-4 col-form-label">Reservation day</label>
+                                <div class="col-2 ">
+                                    <select class="form-control" id="dateReservation">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>|
+                                      </select>
+                                </div>
+                                <label for="days" class="col-4 col-form-label">Number of Days</label>
+                                <div class="col-2 ">
+                                    <select class="form-control" id="days">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                      </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="internet" class="col-4 col-form-label">Type of Internet</label>
+                                <div class="col-2 ">
+                                    <select class="form-control" id="internet">
+                                        <option value="Basic">Basic</option>
+                                        <option value="Pro">Pro</option>
+                                      </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="offset-4 ">
+                                    <button type="button"  class="btn  btn-secondary" data-dismiss="modal">
+                                    Cancel
+                                    </button>
+                                    <button type="submit" class="btn btn-primary">
+                                    Reserve
+                                    </button>
+                                </div>
+                            </div>
+                    </form>
+                    <div class="col-12">
+                        <a href="terms.html">Check the Terms & Conditions</a>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="findModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    </h4><h4 class="modal-title">Consulta tu prueba</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+
+                        <div class="form-group row">
+                            <label for="reservationID" class="col-12  col-sm-4 col-form-label">ID</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="number" class="form-control" name="reservationID" id="Confirmation ID" placeholder="Confirmation ID">
+                            </div>
+                        </div>
+                        
+
+                            <div class="form-group row">
+                                <div class="offset-4 ">
+                                    <button type="button"  class="btn  btn-secondary" data-dismiss="modal">
+                                    Cancel
+                                    </button>
+                                    <button type="submit" class="btn btn-primary">
+                                    Find
+                                    </button>
+                                </div>
+                            </div>
+                    </form>    
+                    <div class="col-12">
+                        <a href="terms.html">Check the Terms & Conditions</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="updateModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    </h4><h4 class="modal-title">Update your reservation</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="reservationID" class="col-12  col-sm-4 col-form-label">ID</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="number" class="form-control" name="reservationID" id="Confirmation ID" placeholder="Confirmation ID">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="name" class="col-12  col-sm-4 col-form-label">Complete name</label>
+                            <div class="col-12 col-sm-7">
+                                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="First Name">
+                            </div>
+                        </div>
+    
+                        <div class="form-group row">
+                            <label for="typeRoom" class="col-12  col-sm-4 col-form-label">Select the room</label>
+                            <div class="col-4">
+                                <select class="form-control" id="typeRoom">
+                                    <option>Executive</option>
+                                    <option>Family</option>
+                                    <option>Royal</option>
+                                  </select>
+                            </div>
+                        </div>
+
+                            <div class="form-group row">
+                                <label for="noAdults" class="col-4 col-form-label">Number of Adults</label>
+                                <div class="col-2 ">
+                                    <select class="form-control" id="noAdults">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                      </select>
+                                </div>
+                                <label for="noKids" class="col-4 col-form-label">Number of Kids</label>
+                                <div class="col-2 ">
+                                    <select class="form-control" id="noAdults">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                      </select>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group row">
+                                <label for="dateReservation" class="col-4 col-form-label">Reservation day</label>
+                                <div class="col-2 ">
+                                    <select class="form-control" id="dateReservation">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>|
+                                      </select>
+                                </div>
+                                <label for="days" class="col-4 col-form-label">Number of Days</label>
+                                <div class="col-2 ">
+                                    <select class="form-control" id="days">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                      </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="internet" class="col-4 col-form-label">Type of Internet</label>
+                                <div class="col-2 ">
+                                    <select class="form-control" id="internet">
+                                        <option value="Basic">Basic</option>
+                                        <option value="Pro">Pro</option>
+                                      </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="offset-4 ">
+                                    <button type="button"  class="btn  btn-secondary" data-dismiss="modal">
+                                    Cancel
+                                    </button>
+                                    <button type="submit" class="btn btn-primary">
+                                    Update
+                                    </button>
+                                </div>
+                            </div>
+                    </form>    
+                    <div class="col-12">
+                        <a href="terms.html">Check the Terms & Conditions</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="jumbotron">
+
+        <div class="container align-self-center">
+            <div class="row row-header">
+                <div class="col-12 col-sm-7 ">
+                    <h1 >Dronetor</h1>
+                    
+                </div>
+                <div class="col-12 col-sm-5 align-self-center">
+                    <div class="col-12">
+                        <a role="button"  class="btn btn-sm btn-block btn-warning" id="reserveButton">
+                            <span class="fa fa-book" ></span> Reserva tu cita</a>
+                    </div>
+                    <br>
+                    <div class="col-12">
+                        <a role="button"  class="btn btn-sm btn-block btn-warning" id="findButton">
+                            <span class="fa fa-search" ></span> Consulta tu prueba</a>
+                    </div>
+                    <br>
+                    <div class="col-12">
+                        <a role="button"  class="btn btn-sm btn-block btn-warning" id="updateButton">
+                            <span class="fa fa-research" ></span> Update your reservation</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-10 col-sm-6  offset-1 offset-sm-3">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="img/SwimmingPool.jfif" alt="Swimming Pool">
+                            <div class="carousel-caption ">
+                                <h2>Swimming Pool</h2>
+                                <p >The best place to take brake</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="img/Restaurant.jpg" alt="Restaurant">
+                            <div class="carousel-caption ">
+                                <h2>Restaurant</h2>
+                                <p>Specially design for you</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <button class="btn btn-danger btn-sm" id="carouselButton">
+                        <span id="carousel-button-icon" class="fa fa-pause"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <h3>The special room for special needs </h3>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"  src="img/Royale.jpg" style="height: 40%; width: 40%;" alt="Royale">
+                    <div class="media-body">
+                        <h2 class="mt-0">Royale room<span class="badge badge-danger">Awesome</span></h2>    
+                        <p class="d-none d-sm-block">A unique room designed to be a extremely comfortable, you wont find another room with excellent quality in other hotels</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    
+
+    <footer class=" footer" style="color: floralwhite;">
+        <div class="container" >
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color:white">Home</a></li>
+                        <li><a href="#" style="color:white"> About</a></li>
+                        <li><a href="#" style="color:white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-4 offset-2" >
+                    <h5>Our Address</h5>
+                    <address style="color:white">
+		              121, Beauty Street<br>
+		              Beauty Street, Beach<br>
+		              Monterrey<br>
+		              <span class="fa fa-phone fa-lg" style="color:white"></span>: +852 1234 5678<br>
+		              <span class="fa fa-fax fa-lg" style="color:white"></span>: +852 8765 4321<br>
+		              <span class="fa fa-envelope fa-lg" style="color:white"></span>: <a href="mailto:ZoomInc@hotel.net" style="color:white">ZoomInc@hotel.net</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+" ><span class="fa fa-google-plus fa-lg " style="color:white"></span></a>
+                        <a class="btn btn-social-icon btn-facebook"href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook fa-lg "style="color:white" ></span></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><span class="fa fa-linkedin fa-lg "style="color:white"></span></a>
+                        <a class="btn btn-social-icon btn-twitter"href="http://twitter.com/"><span class="fa fa-twitter fa-lg "style="color:white"></span></a>
+                        <a class="btn btn-social-icon btn-youtube"href="http://youtube.com/"><span class="fa fa-youtube fa-lg "style="color:white"></span></a>
+                        <a class="btn btn-social-icon "href="mailto:"><span class="fa fa-envelope-o fa-lg" style="color:white"></span></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto ">
+                    <p>© Copyright 2020 HackMTY designed by El club que toma te</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+</body>
+
+</html>
