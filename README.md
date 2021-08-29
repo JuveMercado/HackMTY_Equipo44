@@ -1,6 +1,6 @@
 # HackMTY_Dronctor
 Dronector designed by El club que toma te No.44
-
+-[Presentación](https://www.canva.com/design/DAEodxB1h6g/2leqnefz1F0mF8myiKht5w/view?utm_content=DAEodxB1h6g&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 ## **Propuesta**
 Dron autónomo y de apoyo para médicos en servicio de consultas médicas a distancia y pruebas covid.
 
