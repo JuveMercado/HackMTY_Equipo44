@@ -11,14 +11,14 @@ Dronector designed by El club que toma te No.44
     -Transporte de kit con equipo necesario para pruebas covid
 
 ## **Beneficios**
-Consultas a distancia de mejor calidad
-    -Se atienden a pacientes sin exponer a los médicos.
-Servicio Planificado
-    -Optimización de tiempo en las citas médicas.
-Amplio rango de apoyo
-    -Tiene cobertura en lugares de difícil acceso.
-Personal Capacitado
-    -Asesoría médica impartida por médicos capacitados.
+-Consultas a distancia de mejor calidad
+    _-Se atienden a pacientes sin exponer a los médicos.
+-Servicio Planificado
+    _-Optimización de tiempo en las citas médicas.
+-Amplio rango de apoyo
+    _-Tiene cobertura en lugares de difícil acceso.
+-Personal Capacitado
+    _-Asesoría médica impartida por médicos capacitados.
 
 
 ## **Videos y simulaciones.**
