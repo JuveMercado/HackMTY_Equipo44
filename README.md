@@ -18,7 +18,7 @@ Dron autónomo y de apoyo para médicos en servicio de consultas médicas a dist
 
 
 ## **Videos y simulaciones.**
-Simulación 1 | DJi Simulator: [Ver video](https://youtu.be/FUlyIWOZeyA)
-Simulación 2 | Dron Webot Simulator: [Ver video](https://youtu.be/47sDDvY62BY)
-Funcionamiento de la página web: Dron Webot Simulator: [Ver video]{https://youtu.be/gCjISz57v7w}
+>Simulación 1 | DJi Simulator: [Ver video](https://youtu.be/FUlyIWOZeyA)
+>Simulación 2 | Dron Webot Simulator: [Ver video](https://youtu.be/47sDDvY62BY)
+>Funcionamiento de la página web: Dron Webot Simulator: [Ver video](https://youtu.be/gCjISz57v7w)
 
