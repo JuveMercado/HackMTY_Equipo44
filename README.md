@@ -2,7 +2,7 @@
 Dronector designed by El club que toma te No.44
 
 ## **Propuesta**
-    -Dron autónomo y de apoyo para médicos en servicio de consultas médicas a distancia y pruebas covid.
+Dron autónomo y de apoyo para médicos en servicio de consultas médicas a distancia y pruebas covid.
 
 ## **El dron contara con equipo para:**
     -Realizar videollamada 
@@ -12,13 +12,13 @@ Dronector designed by El club que toma te No.44
 
 ## **Beneficios**
 -Consultas a distancia de mejor calidad
-    _-Se atienden a pacientes sin exponer a los médicos.
+    _Se atienden a pacientes sin exponer a los médicos.
 -Servicio Planificado
-    _-Optimización de tiempo en las citas médicas.
+    _Optimización de tiempo en las citas médicas.
 -Amplio rango de apoyo
-    _-Tiene cobertura en lugares de difícil acceso.
+    _Tiene cobertura en lugares de difícil acceso.
 -Personal Capacitado
-    _-Asesoría médica impartida por médicos capacitados.
+    _Asesoría médica impartida por médicos capacitados.
 
 
 ## **Videos y simulaciones.**
