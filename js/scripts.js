@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#mycarousel").carousel( { interval: 1000 } );
+    $("#mycarousel").carousel( { interval: 2500 } );
     $('#loginButton').click(function(){
         $('#loginModal').modal('toggle')
     });
