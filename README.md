@@ -12,13 +12,9 @@ Dron autónomo y de apoyo para médicos en servicio de consultas médicas a dist
 
 ## **Beneficios**
 -Consultas a distancia de mejor calidad
- _Se atienden a pacientes sin exponer a los médicos.
 -Servicio Planificado
- _Optimización de tiempo en las citas médicas.
 -Amplio rango de apoyo
- _Tiene cobertura en lugares de difícil acceso.
 -Personal Capacitado
- _Asesoría médica impartida por médicos capacitados.
 
 
 ## **Videos y simulaciones.**
