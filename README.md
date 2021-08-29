@@ -16,6 +16,14 @@ Dron autónomo y de apoyo para médicos en servicio de consultas médicas a dist
     -Amplio rango de apoyo
     -Personal Capacitado
 
+## **Tecnologías**
+    -HTML, CSS, JavaScript, Nodejs y Bootstrap: Para el diseño de la página web.
+    -Dji Simulator: es un programa para Windows de formación de pilotos pensado en usuarios de empresa. 
+    -Webot R2019a:es un software de código abierto para simular robots móviles ampliamente usado con fines educativos.
+    -ArduPilot: es un Autopilot Software Suite de código abierto para vehículos no tripulados, capaz de controlar de forma autónoma
+    -C: Para el uso del framework ArduPilot. 
+    -Python: Diseño del controlador en Webot.
+    -OpenCV: Poder abrir y analizar fotografías y videos de la cámara del dron.
 
 ## **Videos y simulaciones.**
 >Simulación 1 | DJi Simulator: [Ver video](https://youtu.be/FUlyIWOZeyA)
